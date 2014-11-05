@@ -1,0 +1,63 @@
+{
+  "name": "grunt-cssglue",
+  "version": "0.0.0",
+  "description": "Streamline configuration and execution of dist css related tasks.",
+  "author": {
+    "name": "Andre Torgal",
+    "url": "http://andretorgal.com/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://andrezero.mit-license.org"
+    }
+  ],
+  "keywords": [
+    "grunt",
+    "gruntplugin",
+    "metatask",
+    "dist",
+    "less",
+    "sass",
+    "copy",
+    "concat",
+    "minify"
+  ],
+  "homepage": "https://github.com/andrezero/grunt-cssglue",
+  "bugs": "https://github.com/andrezero/grunt-cssglue/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrezero/grunt-cssglue"
+  },
+  "readmeFilename": "README.md",
+  "files": [
+    "LICENSE-MIT",
+    "tasks"
+  ],
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-bump": "0.0.16",
+    "grunt-cli": "^0.1.12",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-cssmin": "~0.10.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-less": "~0.8.3",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-conventional-changelog": "~1.1.0",
+    "grunt-git-is-clean": "~0.1.1",
+    "grunt-jsbeautifier": "~0.2.4",
+    "load-grunt-tasks": "~0.6.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
