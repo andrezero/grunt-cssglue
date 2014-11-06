@@ -1,7 +1,6 @@
+# grunt-cssglue [![Build Status: Linux](http://img.shields.io/travis/andrezero/grunt-cssglue/master.svg?style=flat-square)](https://travis-ci.org/andrezero/grunt-cssglue)  [![npm version](http://img.shields.io/npm/v/grunt-cssglue.svg?style=flat-square)](https://npmjs.org/grunt-cssglue)
 
-# grunt-cssglue [![Build Status: Linux](https://travis-ci.org/andrezero/grunt-cssglue.png?branch=master)](https://travis-ci.org/andrezero/grunt-cssglue)
-
-> Streamline configuration and execution of dist css related tasks.
+> Grunt task: streamlines configuration and execution of css related tasks.
 
 
 ## Getting Started
