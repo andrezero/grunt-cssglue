@@ -1,6 +1,6 @@
 {
   "name": "grunt-cssglue",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Streamline configuration and execution of dist css related tasks.",
   "author": {
     "name": "Andre Torgal",
