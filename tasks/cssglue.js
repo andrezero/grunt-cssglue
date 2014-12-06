@@ -5,17 +5,6 @@ var util = require('util');
 var path = require('path');
 var _ = require('lodash');
 
-// waiting for lodash 3.0
-var nativeMin = Math.min;
-_.endsWith = function (string, target, position) {
-    string = string == null ? '' : String(string);
-    target = String(target);
-
-    var length = string.length;
-    position = (typeof position === 'undefined' ? length : nativeMin(position < 0 ? 0 : (+position || 0), length)) - target.length;
-    return position >= 0 && string.indexOf(target, position) === position;
-};
-
 module.exports = function (grunt) {
 
     grunt.registerMultiTask('cssglue', 'Streamline configuration and execution of dist css related tasks.', function () {
@@ -205,7 +194,7 @@ module.exports = function (grunt) {
 
         // -- get user options (with defaults applied)
 
-        var opts = this.options({
+        var opts = task.options({
             tempDir: os.tmpdir(),
             concat: defaults.concat,
             less: defaults.less,
