@@ -1,3 +1,12 @@
+<a name="0.1.2"></a>
+### 0.1.2 (2014-12-06)
+
+
+#### Bug Fixes
+
+* broken options generation ([abeed4cf](http://github.com/andrezero/grunt-cssglue/commit/abeed4cf8d389578cc05f5f988c78371a6102253))
+
+
 <a name="0.1.1"></a>
 ### 0.1.1 (2014-12-06)
 
