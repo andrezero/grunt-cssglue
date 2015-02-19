@@ -1,3 +1,12 @@
+<a name="0.1.3"></a>
+### 0.1.3 (2015-02-19)
+
+
+#### Bug Fixes
+
+* missing lodash var nativeMin ([97ace9c7](http://github.com/andrezero/grunt-cssglue/commit/97ace9c77dabca8bba5a98103ed463bdc019c1cc))
+
+
 <a name="0.1.2"></a>
 ### 0.1.2 (2014-12-06)
 
