@@ -6,6 +6,10 @@
 > Grunt task: streamlines configuration and execution of css related tasks.
 
 
+## WARNING: This code is not maintained
+
+Very obvious - but due - WARNING. Time flies, the world revolves, grunt became gulp became webpack, yada yada. Good memories!
+
 ## Getting Started
 
 This plugin requires Grunt `~0.4.0`.
